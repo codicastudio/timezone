@@ -1,10 +1,8 @@
 {
-    "name": "codicastudio/timezone",
-    "description": "A noobs worthless garbage, just learning.",
-    "keywords": [
-        "worthless garabage by a noob."
-    ],
-    "homepage": "https://github.com/codicastudio/timezone",
+    "name": "codica-studio/timezone",
+    "description": "A random Codica Studio package.",
+
+    "homepage": "https://github.com/codica-studio/timezone",
     "license": "MIT",
     "authors": [
         {
