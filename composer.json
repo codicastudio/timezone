@@ -1,5 +1,5 @@
 {
-    "name": "codica-studio/timezone",
+    "name": "codicastudio/timezone",
     "description": "A random Codica Studio package.",
 
     "homepage": "https://github.com/codicastudio/timezone",
@@ -13,8 +13,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "laravel/framework": "^8",
+        "php": "^7.4 || ^8.0",
         "torann/geoip": "^1.0",
         "nesbot/carbon": "^^2.0"
     },
@@ -39,5 +38,7 @@
         "pre-package-install": [
             "@php artisan config:clear"
         ]
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
